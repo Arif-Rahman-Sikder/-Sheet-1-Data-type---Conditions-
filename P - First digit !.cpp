@@ -7,7 +7,7 @@ int main ()
   cin >> X;
   if (X > 999 && X <= 9999)
     {
-      k = X / 1000;
+      k = X / 1000; //The input is being divided by 1000 to know either the first number is ODD or EVEN 
     }     
 if (k % 2 == 0)
 	{
@@ -38,7 +38,7 @@ if (X > 999 && X <= 9999)
     
     {
       
-k = X / 1000;
+k = X / 1000; //The input is being divided by 1000 to know either the first number is ODD or EVEN 
 
          
 (k % 2 == 0) ? cout << "EVEN\n" : cout << "ODD\n";
